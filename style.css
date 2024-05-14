@@ -1,41 +1,4 @@
-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #000;
-  }
-  
-  /* コントローラーのCSS */
-  .controls {
-    background: #3F4656;
-    display: flex;
-    padding: 20px;
-    border-radius: 10px;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    box-shadow: 0 4px 20px -1px rgba(18, 22, 33, .7);
-  }
-  
-  .controls label {
-    color: #CDD9ED;
-    font-weight: 500;
-    font-size: 14px;
-    display: block;
-    margin-bottom: 16px;
-  }
-  
-  .controls [type="range"] {
-    width: 160px;
-  }
-  
-  @media(max-width: 600px) {
-    .controls [type="range"] {
-      width: 280px;
-    }
-  }
-  
-  .controls > div:not(:last-child) {
-    margin-right: 20px;
-  }
+body{
+    margin: 0;
+    overflow: hidden;
+}
